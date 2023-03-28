@@ -25,3 +25,12 @@
   background-color: #faa500;
   border: none;
 }
+
+.swiper.diferentials {
+  width: 85%;
+}
+
+.swiper.diferentials .swiper-wrapper .swiper-slide {
+  width: 85% !important;
+  margin-left: 8px;
+}
