@@ -8,6 +8,7 @@ specifiers:
   react: ^18.2.0
   react-dom: ^18.2.0
   styled-components: ^5.3.9
+  swiper: ^9.1.1
   typescript: ^4.9.3
   vite: ^4.2.0
 
@@ -15,6 +16,7 @@ dependencies:
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   styled-components: 5.3.9_biqbaboplfbrettd7655fr4n2y
+  swiper: 9.1.1
 
 devDependencies:
   '@types/react': 18.0.30
@@ -897,6 +899,10 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
+  /ssr-window/4.0.2:
+    resolution: {integrity: sha512-ISv/Ch+ig7SOtw7G2+qkwfVASzazUnvlDTwypdLoPoySv+6MqlOV10VwPSE6EWkGjhW50lUmghPmpYZXMu/+AQ==}
+    dev: false
+
   /styled-components/5.3.9_biqbaboplfbrettd7655fr4n2y:
     resolution: {integrity: sha512-Aj3kb13B75DQBo2oRwRa/APdB5rSmwUfN5exyarpX+x/tlM/rwZA2vVk2vQgVSP6WKaZJHWwiFrzgHt+CLtB4A==}
     engines: {node: '>=10'}
@@ -929,6 +935,13 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
     dev: true
+
+  /swiper/9.1.1:
+    resolution: {integrity: sha512-D1zArOwI6XCXCYBULPA4jTxpqp5SQtvntjinbXNZwXzj6P3KS51zSWuMarCLXq5oRISay4nX+TuShpxz8qhtbw==}
+    engines: {node: '>= 4.7.0'}
+    dependencies:
+      ssr-window: 4.0.2
+    dev: false
 
   /to-fast-properties/2.0.0:
     resolution: {integrity: sha512-/OaKK0xYrs3DmxRYqL/yDc+FxFUVYhDlXMhRmv3z915w2HF1tnN1omB354j8VUGO/hbRzyD6Y3sA7v7GS/ceog==}
