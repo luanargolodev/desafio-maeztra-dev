@@ -7,7 +7,7 @@
 .swiper-button-next::after {
   font-size: 0;
   font-family: none;
-  background-image: url('./assets/arrow.svg');
+  background-image: url('./assets/icons/arrow.svg');
   width: 20px;
   height: 32px;
 }
@@ -26,11 +26,11 @@
   border: none;
 }
 
-.swiper.diferentials {
+.swiper.agroup {
   width: 85%;
 }
 
-.swiper.diferentials .swiper-wrapper .swiper-slide {
+.swiper.agroup .swiper-wrapper .swiper-slide {
   width: 85% !important;
   margin-left: 8px;
 }

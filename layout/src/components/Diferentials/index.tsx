@@ -4,18 +4,18 @@ import { Container, Title } from './styles'
 
 import 'swiper/css'
 
-import imgWorld from '../../assets/world.png'
-import imgHouse from '../../assets/house.png'
-import imgReplacement from '../../assets/replacement.png'
-import imgTag from '../../assets/tag.png'
-import imgTruck from '../../assets/truck.png'
+import imgWorld from '../../assets/icons/world.png'
+import imgHouse from '../../assets/icons/house.png'
+import imgReplacement from '../../assets/icons/replacement.png'
+import imgTag from '../../assets/icons/tag.png'
+import imgTruck from '../../assets/icons/truck.png'
 
 const Diferentials = () => {
   return (
     <Container>
       <Title>Por que comprar na Maeztra?</Title>
 
-      <Swiper slidesPerView={'auto'} className="diferentials">
+      <Swiper slidesPerView={'auto'} className="agroup">
         <SwiperSlide>
           <Diferential
             icon={imgWorld}

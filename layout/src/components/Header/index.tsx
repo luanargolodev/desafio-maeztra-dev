@@ -1,10 +1,10 @@
 import BenefitBar from '../BenefitBar'
 import { Container, Content, IconMenu, Link, Logo, Left, Right } from './styles'
 
-import logoMaeztra from '../../assets/logo-maeztra.png'
-import svgMenu from '../../assets/icon-menu.svg'
-import svgSearch from '../../assets/search.svg'
-import svgBag from '../../assets/bag.svg'
+import logoMaeztra from '../../assets/icons/logo-maeztra.png'
+import svgMenu from '../../assets/icons/icon-menu.svg'
+import svgSearch from '../../assets/icons/search.svg'
+import svgBag from '../../assets/icons/bag.svg'
 
 function Header() {
   return (
