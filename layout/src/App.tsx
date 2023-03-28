@@ -2,6 +2,7 @@ import Banner from './components/Banner'
 import Brands from './components/Brands'
 import Diferentials from './components/Diferentials'
 import Header from './components/Header'
+import Shelf from './components/Shelf'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Banner />
       <Diferentials />
       <Brands />
+      <Shelf />
     </>
   )
 }
