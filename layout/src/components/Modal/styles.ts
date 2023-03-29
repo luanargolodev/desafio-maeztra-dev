@@ -9,6 +9,8 @@ export const Overlay = styled.section`
   height: 100vh;
   background: rgba(0, 0, 0, 0.7);
   z-index: 2;
+
+  display: flex;
 `
 
 export const Container = styled.div`
@@ -25,6 +27,21 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  @media screen and (min-width: 1024px) {
+    max-width: 851px;
+    height: 558px;
+    flex-direction: row;
+  }
+`
+
+export const Content = styled.div`
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 `
 
 export const ButtonClose = styled.button`
@@ -41,6 +58,11 @@ export const ButtonClose = styled.button`
   font-weight: 400px;
   color: #fff;
   text-transform: uppercase;
+`
+
+export const Background = styled.img`
+  width: 100%;
+  height: 100%;
 `
 
 export const Image = styled.img`
