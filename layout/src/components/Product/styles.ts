@@ -21,7 +21,6 @@ export const Colors = styled.div`
 export const Color = styled.div`
   width: 27px;
   height: 27px;
-  border: 1px solid #353535;
   border-radius: 4px;
   margin: 8px 0;
 `

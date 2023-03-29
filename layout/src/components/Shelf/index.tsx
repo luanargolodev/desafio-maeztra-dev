@@ -13,9 +13,8 @@ function Shelf() {
 
       <Swiper slidesPerView={'auto'} className="agroup">
         {allProducts.map((product) => (
-          <SwiperSlide>
+          <SwiperSlide key={product.id}>
             <Product
-              key={product.id}
               image={product.image}
               colors={product.colors}
               price={product.price}

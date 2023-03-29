@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import {
   Container,
   Image,
@@ -19,18 +20,35 @@ interface ProductProps {
 }
 
 function Product({ image, colors, price, name, description }: ProductProps) {
+  const [selectedColor, setSelectedColor] = useState(colors[0])
+
+  function handleClick(color: number) {
+    setSelectedColor(colors[color])
+  }
+
+  function handleAddCart() {
+    alert('O produto foi adicionado ao carrinho.')
+  }
+
   return (
     <Container>
       <Image src={image} />
       <Colors>
         {colors.map((color) => (
-          <Color key={color} style={{ backgroundColor: color }} />
+          <Color
+            onClick={() => handleClick(colors.indexOf(color))}
+            key={color}
+            style={{
+              backgroundColor: color,
+              border: selectedColor === color ? '1px solid #535353' : 'none',
+            }}
+          />
         ))}
       </Colors>
       <Price>{formatPrice(price)}</Price>
       <Name>{name}</Name>
       <Description>{description}</Description>
-      <BuyButton>Adicionar</BuyButton>
+      <BuyButton onClick={handleAddCart}>Adicionar</BuyButton>
     </Container>
   )
 }
