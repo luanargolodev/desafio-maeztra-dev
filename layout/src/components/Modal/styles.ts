@@ -43,6 +43,10 @@ export const Content = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
+
+  @media screen and (min-width: 1024px) {
+    height: 560px;
+  }
 `
 
 export const ButtonClose = styled.button`
@@ -93,6 +97,7 @@ export const Subtitle = styled.h4`
   @media screen and (min-width: 1024px) {
     font-size: 20px;
     width: 260px;
+    padding: 0;
   }
 `
 
