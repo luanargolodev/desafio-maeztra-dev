@@ -10,6 +10,13 @@ export const Container = styled.section`
 
   border-top: 2px solid #efefef;
   border-bottom: 2px solid #efefef;
+
+  @media screen and (min-width: 1024px) {
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px;
+    gap: 15px;
+  }
 `
 
 export const Title = styled.h2`
@@ -20,4 +27,8 @@ export const Title = styled.h2`
   justify-content: center;
   text-align: center;
   color: #353535;
+
+  @media screen and (min-width: 1024px) {
+    width: 307px;
+  }
 `

@@ -5,6 +5,13 @@ export const FormEmail = styled.form`
   width: 100%;
   display: flex;
   gap: 15px;
+
+  @media screen and (min-width: 1024px) {
+    width: 630px;
+    margin-top: 0;
+    height: 40px;
+    gap: 0;
+  }
 `
 
 export const Input = styled.input`
@@ -12,7 +19,6 @@ export const Input = styled.input`
   border-radius: 4px;
   background-color: #fff;
   width: 100%;
-
   padding-left: 24px;
 `
 
@@ -20,6 +26,7 @@ export const Button = styled.button`
   background-color: #faa500;
   border: 1px solid #faa500;
   border-radius: 4px;
+  cursor: pointer;
 
   color: #fff;
   font-size: 14px;
@@ -27,4 +34,11 @@ export const Button = styled.button`
   font-weight: 700;
   width: 79px;
   height: 26px;
+
+  @media screen and (min-width: 1024px) {
+    width: 131px;
+    height: 40px;
+    position: relative;
+    left: -5px;
+  }
 `
