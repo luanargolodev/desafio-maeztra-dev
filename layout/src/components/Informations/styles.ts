@@ -8,4 +8,9 @@ export const Container = styled.section`
   gap: 17px;
   padding-left: 31px;
   margin-bottom: 57px;
+
+  @media screen and (min-width: 1024px) {
+    flex-direction: row;
+    justify-content: space-around;
+  }
 `

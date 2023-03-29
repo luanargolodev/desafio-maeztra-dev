@@ -23,6 +23,12 @@ export const Title = styled.h3`
     position: absolute;
     right: 35px;
   }
+
+  @media screen and (min-width: 1024px) {
+    &::after {
+      content: '';
+    }
+  }
 `
 
 export const Option = styled.a`

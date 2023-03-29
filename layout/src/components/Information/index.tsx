@@ -9,10 +9,13 @@ interface InformationProps {
 
 function Information({ title, options, links }: InformationProps) {
   const [selectedOption, setSelectedOption] = useState<string | null>(null)
-
-  console.log('links', links)
+  const isDesktop = window.innerWidth >= 1024
 
   const handleChangeOption = () => {
+    if (isDesktop) return
+
+    console.log('selectedOption', selectedOption)
+
     if (selectedOption === title) {
       setSelectedOption(null)
     } else {
@@ -24,7 +27,7 @@ function Information({ title, options, links }: InformationProps) {
     <Container>
       <Title onClick={handleChangeOption}>{title}</Title>
 
-      {selectedOption === title &&
+      {(selectedOption === title || isDesktop) &&
         options?.map((option, i) => (
           <Option key={i} href={links ? links[i] : '#'}>
             {option}

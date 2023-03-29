@@ -10,4 +10,9 @@ export const Container = styled.div`
 export const Image = styled.img`
   width: 32px;
   height: 32px;
+  cursor: pointer;
+
+  &:hover {
+    filter: brightness(0.8);
+  }
 `

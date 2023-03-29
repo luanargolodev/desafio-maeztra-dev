@@ -9,6 +9,12 @@ export const Container = styled.footer`
   height: 233px;
   background: #353535;
   gap: 36px;
+
+  @media screen and (min-width: 1024px) {
+    height: 85px;
+    flex-direction: row;
+    justify-content: space-around;
+  }
 `
 
 export const Title = styled.h2`
