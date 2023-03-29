@@ -22,6 +22,7 @@ export const Title = styled.h2`
   line-height: 14px;
   font-weight: 400;
   color: #fff;
+  margin-bottom: 3px;
 `
 
 export const Area = styled.div`
