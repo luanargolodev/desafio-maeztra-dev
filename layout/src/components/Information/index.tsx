@@ -4,10 +4,13 @@ import { Container, Title, Option } from './styles'
 interface InformationProps {
   title: string
   options?: string[]
+  links?: string[]
 }
 
-function Information({ title, options }: InformationProps) {
+function Information({ title, options, links }: InformationProps) {
   const [selectedOption, setSelectedOption] = useState<string | null>(null)
+
+  console.log('links', links)
 
   const handleChangeOption = () => {
     if (selectedOption === title) {
@@ -22,7 +25,11 @@ function Information({ title, options }: InformationProps) {
       <Title onClick={handleChangeOption}>{title}</Title>
 
       {selectedOption === title &&
-        options?.map((option, i) => <Option key={i}>{option}</Option>)}
+        options?.map((option, i) => (
+          <Option key={i} href={links ? links[i] : '#'}>
+            {option}
+          </Option>
+        ))}
     </Container>
   )
 }

@@ -25,7 +25,15 @@ export const Title = styled.h3`
   }
 `
 
-export const Option = styled.p`
+export const Option = styled.a`
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: space-between;
+  width: max-content;
+  text-decoration: none;
+
+  margin-top: 10px;
   font-size: 14px;
   line-height: 16px;
   font-weight: 400;

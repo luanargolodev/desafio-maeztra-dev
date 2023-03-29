@@ -6,15 +6,23 @@ function Informations() {
     <Container>
       <Information
         title="Informações"
-        options={['Lorem ipsum', 'Lorem ipsum', 'Lorem ipsum']}
+        options={[
+          'Quem Somos',
+          'Prazo de Envio',
+          'Trocas e Devoluções',
+          'Promoções e Cupons',
+        ]}
+        links={['#', '#', '#', '#']}
       />
       <Information
         title="Minha Conta"
-        options={['Lorem ipsum', 'Lorem ipsum', 'Lorem ipsum']}
+        options={['Minha Conta', 'Meus Pedidos', 'Cadastre-se']}
+        links={['#', '#', '#']}
       />
       <Information
         title="Onde nos Encontrar"
-        options={['Lorem ipsum', 'Lorem ipsum', 'Lorem ipsum']}
+        options={['Lojas', 'Endereço']}
+        links={['#', '#']}
       />
     </Container>
   )
