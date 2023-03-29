@@ -22,7 +22,7 @@ function isSequencyValid(sequence) {
   }
 
   return caracteres.length === 0
-    ? 'Sequência válida'
+    ? 'É uma sequência válida'
     : 'Não é uma sequência válida'
 }
 
