@@ -17,3 +17,22 @@ export const Title = styled.h2`
   justify-content: center;
   color: #353535;
 `
+
+export const Mobile = styled.div`
+  @media screen and (min-width: 1024px) {
+    display: none;
+  }
+`
+
+export const Desktop = styled.div`
+  @media screen and (max-width: 1024px) {
+    display: none;
+  }
+
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  max-width: 95%;
+  width: 100%;
+  margin: 0 auto;
+`

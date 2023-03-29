@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Container, Title } from './styles'
+import { Container, Title, Mobile, Desktop } from './styles'
 import Brand from '../Brand'
 
 import 'swiper/css'
@@ -11,7 +11,6 @@ import imgZara from '../../assets/brands/zara.png'
 import imgAnaTaylor from '../../assets/brands/ana-taylor.png'
 
 function Brands() {
-  const isMobile = window.innerWidth < 1024
   const orderMobile = [
     imgForever21,
     imgMelissa,
@@ -31,19 +30,21 @@ function Brands() {
     <Container>
       <Title>Marcas Parceiras</Title>
 
-      <Swiper slidesPerView={'auto'} className="agroup">
-        {isMobile
-          ? orderMobile.map((icon) => (
-              <SwiperSlide key={icon}>
-                <Brand icon={icon} />
-              </SwiperSlide>
-            ))
-          : orderDesktop.map((icon) => (
-              <SwiperSlide key={icon}>
-                <Brand icon={icon} />
-              </SwiperSlide>
-            ))}
-      </Swiper>
+      <Mobile>
+        <Swiper slidesPerView={'auto'} className="agroup">
+          {orderMobile.map((icon) => (
+            <SwiperSlide key={icon}>
+              <Brand icon={icon} />
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </Mobile>
+
+      <Desktop>
+        {orderDesktop.map((icon) => (
+          <Brand key={icon} icon={icon} />
+        ))}
+      </Desktop>
     </Container>
   )
 }
