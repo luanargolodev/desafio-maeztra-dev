@@ -7,6 +7,10 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     font-family: 'Titillium Web', sans-serif;
   }
+
+  body {
+    background-color:  #FAFAFA;
+  }
 `
 
 export default GlobalStyle
