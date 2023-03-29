@@ -16,6 +16,7 @@ export const Colors = styled.div`
   width: 100%;
   display: flex;
   gap: 8px;
+  padding-left: 27px;
 `
 
 export const Color = styled.div`
@@ -30,6 +31,7 @@ export const Price = styled.h3`
   line-height: 30px;
   font-weight: 700;
   color: #353535;
+  padding-left: 27px;
 `
 
 export const Name = styled.h3`
@@ -37,6 +39,7 @@ export const Name = styled.h3`
   line-height: 24px;
   font-weight: 400;
   color: #000;
+  padding-left: 27px;
 `
 
 export const Description = styled.p`
@@ -46,10 +49,13 @@ export const Description = styled.p`
   font-weight: 400;
   opacity: 0.5;
   height: 54px;
+  padding-left: 27px;
+  width: 254px;
 `
 
 export const BuyButton = styled.button`
-  width: 100%;
+  width: 80%;
+  margin-left: 27px;
   height: 35px;
   border: none;
   background-color: #faa500;

@@ -26,6 +26,7 @@ export const Subtitle = styled.p`
 
 export const Image = styled.img`
   margin-top: 24px;
-
+  background: #d79595;
+  border-radius: 4px;
   height: 100%;
 `
