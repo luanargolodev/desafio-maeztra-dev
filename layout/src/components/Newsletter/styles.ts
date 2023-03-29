@@ -5,7 +5,7 @@ export const Container = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #fafafa;
+  background-color: #efefef;
   padding: 24px;
 
   border-top: 2px solid #efefef;
@@ -16,6 +16,7 @@ export const Container = styled.section`
     justify-content: center;
     padding: 40px;
     gap: 15px;
+    background-color: #fafafa;
   }
 `
 
