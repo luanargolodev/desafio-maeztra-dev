@@ -20,6 +20,19 @@ export const Container = styled.section`
   }
 `
 
+export const Content = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+
+  @media screen and (min-width: 1024px) {
+    flex-direction: row;
+    max-width: 950px;
+  }
+`
+
 export const Title = styled.h2`
   font-size: 24px;
   line-height: 37px;

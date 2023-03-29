@@ -13,8 +13,9 @@ export const Content = styled.div`
   flex-direction: column;
 
   @media screen and (min-width: 1024px) {
-    top: 45%;
-    left: 30%;
+    max-width: 1600px;
+    width: 100%;
+    margin-left: 142px;
   }
 `
 
@@ -41,6 +42,7 @@ export const Title = styled.h2`
     font-size: 40px;
     line-height: 49px;
     width: 471px;
+    margin-bottom: 40px;
   }
 `
 
@@ -56,7 +58,8 @@ export const Subtitle = styled.h3`
   @media screen and (min-width: 1024px) {
     font-size: 20px;
     line-height: 24px;
-    width: 467px;
+    width: 455px;
+    margin-bottom: 32px;
   }
 `
 

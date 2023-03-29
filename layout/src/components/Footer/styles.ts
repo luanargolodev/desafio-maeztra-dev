@@ -13,7 +13,24 @@ export const Container = styled.footer`
   @media screen and (min-width: 1024px) {
     height: 85px;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-top: 84px;
+  }
+`
+
+export const ContainerWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+
+  @media screen and (min-width: 1024px) {
+    gap: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
   }
 `
 
@@ -30,6 +47,11 @@ export const Area = styled.div`
   align-items: center;
   justify-content: center;
   gap: 28px;
+  width: 100%;
+
+  @media screen and (min-width: 1900px) {
+    justify-content: flex-end;
+  }
 `
 
 export const Content = styled.div`

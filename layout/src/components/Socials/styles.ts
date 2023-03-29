@@ -5,6 +5,14 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   gap: 24px;
+
+  @media screen and (min-width: 1024px) {
+    width: 100%;
+  }
+
+  @media screen and (min-width: 1900px) {
+    justify-content: flex-start;
+  }
 `
 
 export const Image = styled.img`

@@ -1,12 +1,14 @@
 import Form from '../Form'
-import { Container, Title } from './styles'
+import { Container, Content, Title } from './styles'
 
 const Newsletter = () => {
   return (
     <Container>
-      <Title>Recebe Nossa Newsletter</Title>
+      <Content>
+        <Title>Recebe Nossa Newsletter</Title>
 
-      <Form />
+        <Form />
+      </Content>
     </Container>
   )
 }

@@ -14,8 +14,6 @@ function Information({ title, options, links }: InformationProps) {
   const handleChangeOption = () => {
     if (isDesktop) return
 
-    console.log('selectedOption', selectedOption)
-
     if (selectedOption === title) {
       setSelectedOption(null)
     } else {

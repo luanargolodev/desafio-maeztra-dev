@@ -23,6 +23,10 @@ export const Content = styled.div`
   width: 100%;
 
   > div {
-    max-width: 95%;
+    max-width: 1600px;
+
+    @media screen and (min-width: 1024px) and (max-width: 1920px) {
+      padding: 0 30px;
+    }
   }
 `

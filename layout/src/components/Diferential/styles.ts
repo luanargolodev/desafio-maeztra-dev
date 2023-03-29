@@ -9,6 +9,11 @@ export const Container = styled.div`
   background-color: #efefef;
   border-radius: 4px;
   margin: 21px auto 0 auto;
+
+  @media screen and (min-width: 1024px) {
+    justify-content: flex-start;
+    padding-left: 27px;
+  }
 `
 
 export const Image = styled.img`

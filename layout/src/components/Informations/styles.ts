@@ -11,6 +11,9 @@ export const Container = styled.section`
 
   @media screen and (min-width: 1024px) {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-bottom: 0;
+    max-width: 950px;
+    margin: 0 auto;
   }
 `

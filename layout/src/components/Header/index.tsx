@@ -1,6 +1,7 @@
 import BenefitBar from '../BenefitBar'
 import {
   Container,
+  Content,
   Mobile,
   Desktop,
   IconMenu,
@@ -30,28 +31,30 @@ function Header() {
       <BenefitBar />
 
       <Desktop>
-        <Link href="https://maeztra.com/" target="_blank">
-          <Logo src={logoMaeztra} alt="Logo Maeztra" />
-        </Link>
+        <Content>
+          <Link href="https://maeztra.com/" target="_blank">
+            <Logo src={logoMaeztra} alt="Logo Maeztra" />
+          </Link>
 
-        <Form>
-          <Input type="text" placeholder="O que você busca?" />
-          <Button type="submit">Buscar</Button>
-        </Form>
+          <Form>
+            <Input type="text" placeholder="O que você busca?" />
+            <Button type="submit">Buscar</Button>
+          </Form>
 
-        <Link href="#">
-          <IconMenu src={svgUser} alt="Minha Conta" />
-          Minha Conta
-        </Link>
-        <Link href="#">
-          <IconMenu src={svgHeart} alt="Minha Conta" />
-          Minha Conta
-        </Link>
+          <Link href="#">
+            <IconMenu src={svgUser} alt="Minha Conta" />
+            Minha Conta
+          </Link>
+          <Link href="#">
+            <IconMenu src={svgHeart} alt="Minha Conta" />
+            Minha Conta
+          </Link>
 
-        <Cart href="#">
-          <IconMenu src={svgBag} alt="Meu Carrinho" />
-          Meu Carrinho
-        </Cart>
+          <Cart href="#">
+            <IconMenu src={svgBag} alt="Meu Carrinho" />
+            Meu Carrinho
+          </Cart>
+        </Content>
       </Desktop>
 
       <MenuItems />

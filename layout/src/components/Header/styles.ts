@@ -18,6 +18,15 @@ export const Mobile = styled.div`
   gap: 80px;
 `
 
+export const Content = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 30px;
+`
+
 export const Desktop = styled.div`
   @media screen and (max-width: 1024px) {
     display: none;
@@ -100,6 +109,7 @@ export const Cart = styled.a`
   border: 1px solid #faa500;
   border-radius: 8px;
   padding: 15px;
+  color: #353535;
 `
 
 export const Logo = styled.img`

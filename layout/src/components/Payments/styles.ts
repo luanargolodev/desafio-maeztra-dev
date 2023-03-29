@@ -5,6 +5,10 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   gap: 24px;
+
+  @media screen and (min-width: 1024px) {
+    width: 100%;
+  }
 `
 
 export const Image = styled.img`

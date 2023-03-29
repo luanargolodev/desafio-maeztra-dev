@@ -15,7 +15,7 @@ export const Overlay = styled.section`
 
 export const Container = styled.div`
   position: relative;
-  top: 50%;
+  top: 29%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
@@ -29,6 +29,7 @@ export const Container = styled.div`
   justify-content: center;
 
   @media screen and (min-width: 1024px) {
+    top: 50%;
     max-width: 851px;
     height: 558px;
     flex-direction: row;
@@ -87,6 +88,12 @@ export const Subtitle = styled.h4`
   width: 258px;
   font-weight: 400;
   text-align: center;
+  padding: 0 20px;
+
+  @media screen and (min-width: 1024px) {
+    font-size: 20px;
+    width: 260px;
+  }
 `
 
 export const Strong = styled.strong`
@@ -102,6 +109,10 @@ export const Form = styled.form`
   gap: 12px;
   padding: 0 20px;
   width: 100%;
+
+  @media screen and (min-width: 1024px) {
+    padding: 0 52px;
+  }
 `
 
 export const Input = styled.input`
@@ -114,21 +125,13 @@ export const Input = styled.input`
   line-height: 20px;
   color: #787d83;
 
-  &::placeholder {
-    color: #787d83;
-  }
-
   &:focus {
     outline: none;
     border: 1px solid #787d83;
   }
 
-  &:focus::placeholder {
-    color: #787d83;
-  }
-
-  &:disabled {
-    background: #e0e0e0;
+  @media screen and (min-width: 1024px) {
+    border-radius: 10px;
   }
 `
 

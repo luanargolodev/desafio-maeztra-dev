@@ -57,3 +57,13 @@
     right: 0;
   }
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1920px) {
+  .swiper.shelf .swiper-button-prev {
+    left: 35px;
+  }
+
+  .swiper.shelf .swiper-button-next {
+    right: 35px;
+  }
+}

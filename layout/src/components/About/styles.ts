@@ -7,12 +7,13 @@ export const Container = styled.section`
   align-items: center;
 
   @media screen and (min-width: 1024px) {
-    max-width: 95%;
+    max-width: 1600px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     gap: 64px;
+    margin: 0 auto;
   }
 `
 

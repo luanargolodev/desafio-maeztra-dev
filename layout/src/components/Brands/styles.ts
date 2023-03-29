@@ -36,7 +36,11 @@ export const Desktop = styled.div`
   display: flex;
   align-items: center;
   gap: 15px;
-  max-width: 95%;
   width: 100%;
   margin: 0 auto;
+  max-width: 1600px;
+
+  @media screen and (max-width: 1920px) {
+    padding: 0 30px;
+  }
 `
