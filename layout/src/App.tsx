@@ -6,6 +6,7 @@ import Shelf from './components/Shelf'
 import About from './components/About'
 import Newsletter from './components/Newsletter'
 import Informations from './components/Informations'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <About />
       <Newsletter />
       <Informations />
+      <Footer />
     </>
   )
 }
