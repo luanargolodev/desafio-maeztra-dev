@@ -24,6 +24,7 @@ export const Color = styled.div`
   height: 27px;
   border-radius: 4px;
   margin: 8px 0;
+  cursor: pointer;
 `
 
 export const Price = styled.h3`

@@ -43,4 +43,17 @@
   .swiper-button-next {
     right: 5%;
   }
+
+  .swiper.shelf .swiper-button-prev,
+  .swiper.shelf .swiper-button-next {
+    top: 45%;
+  }
+
+  .swiper.shelf .swiper-button-prev {
+    left: 0;
+  }
+
+  .swiper.shelf .swiper-button-next {
+    right: 0;
+  }
 }
