@@ -1,7 +1,7 @@
 import Socials from '../Socials'
 import Payments from '../Payments'
 
-import { Container, Area, Content, Title, Image } from './styles'
+import { Container, Area, Content, Title, Link, Image } from './styles'
 
 import logoVtex from '../../assets/icons/vtex.png'
 import logoMaeztra from '../../assets/icons/logo-maeztra-footer.png'
@@ -15,12 +15,16 @@ const Footer = () => {
       <Area>
         <Content>
           <Title>Powered by</Title>
-          <Image src={logoVtex} alt="Vtex" />
+          <Link href="#">
+            <Image src={logoVtex} alt="Vtex" />
+          </Link>
         </Content>
 
         <Content>
           <Title>Developed by</Title>
-          <Image src={logoMaeztra} alt="Maeztra" />
+          <Link href="https://maeztra.com/" target={'_blank'}>
+            <Image src={logoMaeztra} alt="Maeztra" />
+          </Link>
         </Content>
       </Area>
     </Container>

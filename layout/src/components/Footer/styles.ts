@@ -32,6 +32,8 @@ export const Content = styled.div`
   flex-direction: column;
 `
 
+export const Link = styled.a``
+
 export const Image = styled.img`
   width: 100%;
   height: 100%;
