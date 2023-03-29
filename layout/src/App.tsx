@@ -5,6 +5,7 @@ import Header from './components/Header'
 import Shelf from './components/Shelf'
 import About from './components/About'
 import Newsletter from './components/Newsletter'
+import Informations from './components/Informations'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Shelf />
       <About />
       <Newsletter />
+      <Informations />
     </>
   )
 }
