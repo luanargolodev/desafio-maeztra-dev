@@ -89,6 +89,7 @@ export const Link = styled.a`
   display: flex;
   align-items: center;
   gap: 8px;
+  color: #353535;
 `
 
 export const Cart = styled.a`

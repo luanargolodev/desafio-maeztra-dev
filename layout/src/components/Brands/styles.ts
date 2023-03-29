@@ -6,6 +6,10 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   margin-top: 40px;
+
+  @media screen and (min-width: 1024px) {
+    margin-top: 74px;
+  }
 `
 
 export const Title = styled.h2`
