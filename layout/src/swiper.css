@@ -34,3 +34,13 @@
   width: 85% !important;
   margin-left: 8px;
 }
+
+@media screen and (min-width: 1024px) {
+  .swiper-button-prev {
+    left: 5%;
+  }
+
+  .swiper-button-next {
+    right: 5%;
+  }
+}

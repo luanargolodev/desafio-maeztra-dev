@@ -1,9 +1,10 @@
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation, Pagination } from 'swiper'
 import { Container } from './styles'
-
 import ContentBanner from '../ContentBanner'
+
 import imgBanner from '../../assets/banner.png'
+import imgBannerDesktop from '../../assets/bannerDesktop.png'
 
 import 'swiper/css'
 import 'swiper/css/navigation'
@@ -20,7 +21,7 @@ function Banner() {
       >
         <SwiperSlide>
           <ContentBanner
-            image={imgBanner}
+            image={window.innerWidth > 1024 ? imgBannerDesktop : imgBanner}
             title="Promoções de Outono"
             subtitle="Confira os melhores looks para combinar com você nesse Outono"
             linkButton="#"
@@ -30,7 +31,7 @@ function Banner() {
 
         <SwiperSlide>
           <ContentBanner
-            image={imgBanner}
+            image={window.innerWidth > 1024 ? imgBannerDesktop : imgBanner}
             title="Promoções de Outono"
             subtitle="Confira os melhores looks para combinar com você nesse Outono"
             linkButton="#"
@@ -40,7 +41,7 @@ function Banner() {
 
         <SwiperSlide>
           <ContentBanner
-            image={imgBanner}
+            image={window.innerWidth > 1024 ? imgBannerDesktop : imgBanner}
             title="Promoções de Outono"
             subtitle="Confira os melhores looks para combinar com você nesse Outono"
             linkButton="#"
@@ -50,7 +51,7 @@ function Banner() {
 
         <SwiperSlide>
           <ContentBanner
-            image={imgBanner}
+            image={window.innerWidth > 1024 ? imgBannerDesktop : imgBanner}
             title="Promoções de Outono"
             subtitle="Confira os melhores looks para combinar com você nesse Outono"
             linkButton="#"
@@ -60,7 +61,7 @@ function Banner() {
 
         <SwiperSlide>
           <ContentBanner
-            image={imgBanner}
+            image={window.innerWidth > 1024 ? imgBannerDesktop : imgBanner}
             title="Promoções de Outono"
             subtitle="Confira os melhores looks para combinar com você nesse Outono"
             linkButton="#"
