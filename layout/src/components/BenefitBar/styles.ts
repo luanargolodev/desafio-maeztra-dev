@@ -14,4 +14,8 @@ export const Text = styled.h3`
   line-height: 18px;
   color: #fff;
   font-weight: 400;
+
+  @media screen and (min-width: 1024px) {
+    font-size: 12px;
+  }
 `
