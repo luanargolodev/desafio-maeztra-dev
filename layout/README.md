@@ -4,22 +4,22 @@ Layout no figma: https://www.figma.com/file/3RqPfS5PW9whbQNCTTaoqA/%5B2020-09%5D
 
 Link para visualizar projeto: 
 
-## Tecnologias utilizadas
+## ✔️ Tecnologias utilizadas
 
-JavaScript
-
-TypeScript
-
-React.JS
-
-Styled Components
-
-Swiper
+- ``JavaScript``
+- ``React.JS``
+- ``TypeScript``
+- ``Swiper``
+- ``Styled-components``
 
 ## Sobre o desafio
 Com o desafio e o layout proposto em mãos, tracei a rota de desenvolvimento escolhendo a tecnologia que iria utilizar e fiz o cronograma de desenvolvimento dos componentes da aplicação.
 
-## Rodando o projeto
+## 🎯 Funcionalidades
+
+
+
+## 📁 Rodando o projeto
 
 Clone o projeto
 
@@ -45,6 +45,11 @@ Finalmente, podemos iniciar o servidor
 ```bash
   pnpm dev
 ```
+
+## Autor
+
+| [<img src="https://avatars.githubusercontent.com/u/10791688?v=4" width=115><br><sub>Luan Argolo Lemos</sub>](https://github.com/luanargolodev)
+| :---:
 
 ## Considerações
 
