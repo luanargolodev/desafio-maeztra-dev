@@ -17,7 +17,8 @@ Com o desafio e o layout proposto em mãos, tracei a rota de desenvolvimento esc
 
 ## 🎯 Funcionalidades
 
-
+![mobile](https://user-images.githubusercontent.com/10791688/228711313-568a1ea3-09af-4c96-bf9f-1737a092fce1.gif)
+![desktop](https://user-images.githubusercontent.com/10791688/228713616-7f144628-a954-4208-9ffd-d23d2e5e48b2.gif)
 
 ## 📁 Rodando o projeto
 
